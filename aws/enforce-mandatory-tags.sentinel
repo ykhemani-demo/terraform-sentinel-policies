@@ -24,7 +24,7 @@ param mandatory_tags default [
   "ttl", 
   "owner", 
   "bu", 
-  "purpose"
+  "purpose",
 ]
 
 # Get all AWS Resources with standard tags

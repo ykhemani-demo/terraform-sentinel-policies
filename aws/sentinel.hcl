@@ -21,7 +21,7 @@ policy "check-ec2-environment-tag" {
 
 policy "enforce-mandatory-tags" {
   source = "./enforce-mandatory-tags.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "hard-mandatory"
 }
 
 policy "protect-against-rds-instance-deletion" {
